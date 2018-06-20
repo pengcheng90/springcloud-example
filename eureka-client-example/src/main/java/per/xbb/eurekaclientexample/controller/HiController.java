@@ -12,6 +12,6 @@ public class HiController {
 
     @RequestMapping("/hi")
     public String hi() {
-        return port;
+        return "request server port:"+port;
     }
 }
