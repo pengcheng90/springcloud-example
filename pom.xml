@@ -5,9 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pers.xbb.springcloudexample</groupId>
-    <artifactId>spring-cloud-example</artifactId>
+    <artifactId>springcloud-example</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.2.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
 
     <modules>
         <module>eureka-server-example</module>
@@ -15,6 +22,11 @@
         <module>service-feign</module>
         <module>service-rest-ribbon</module>
         <module>service-zuul</module>
+        <module>config-client</module>
+        <module>config-server</module>
+        <module>server-zipkin</module>
+        <module>service-zipkin-hi</module>
+        <module>service-zipkin-miya</module>
     </modules>
 
 </project>
