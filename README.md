@@ -4,5 +4,6 @@
 ### Ribbon 实现客户端侧负载均衡
 ### Feign 可以更加便捷、优雅地调用HTTP API，声明式的API调用
 ### Hystrix 实现微服务的容错
+### Zuul 微服务网关
 
 参考资料：https://github.com/forezp/SpringCloudLearning
